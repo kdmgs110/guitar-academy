@@ -1,0 +1,91 @@
+<div class="wrapper">
+    <div class="main conainer">
+        <div class="row header">
+            <div class="col-md-3 logo">
+                <span id="logo">Guitaracademy</span>
+            </div>
+            <div class="col-md-9 navi navimenu">
+                <ul>
+                    <li class="col-md-3"><%= link_to 'Sign up', root_path,class:"navi-link sign-border"%></li>
+                    <li class="col-md-3"><%= link_to 'Sign in', root_path,class:"navi-link"%></li>
+                    <li class="col-md-3"><%= link_to 'About', root_path,class:"navi-link"%></li>
+                    <li class="col-md-3"><%= link_to 'Contact', root_path,class:"navi-link"%></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <h1  class="col-md-12">Learn to Play <br>Whatever Songs You Like</h1>
+            <span class="sign-up" class="col-md-6 col-md-offset-3">Sign Up!</span>
+        </div>
+    </div>
+    <div class="container message">
+        <div class="row">
+            <h1>What's Guitar Academy?</h1>
+            <h2 class="col-md-8 col-md-offset-2">Guitar Academy provides you with awesome guitar curriculum so that you can play whatever songs you like.</h2>
+            <div class="col-md-4">
+                <i class="fa fa-desktop fawe" aria-hidden="true"></i>
+                <h3>Genre-based Curriculum</h3>
+                <p>Learn guitar through your favorite genre of songs.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-youtube-play fawe" aria-hidden="true"></i>
+                <h3>Video-based Tutorial</h3>
+                <p>We prepare hundreds of video tutorials.Videos tutorial teaches you how to play.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-money fawe" aria-hidden="true"></i>
+                <h3>Mentor Support</h3>
+                <p>If you stacked with practice, you can ask any questions to professional musician at any time.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container genre-wrapper">
+        <div class="row genre-header">
+            <h1 class="col-md-8 col-md-offset-2">Genre-based Curriculum</h1>
+            <h2 class ="col-md-8 col-md-offset-2">You can choose your favorite genre of music, like rock, pops, alternative, metal, and learn skills to play specific genre of music.</h2>
+        </div>
+        <div class="row genre">
+            <div class="col-md-8 genre-text">
+                <p class="col-md-10 col-md-offset-1">Guitar Academy's curriculum has more than hundreds of curriculum for each genre of music. Rock, Pops, Electrocinics, Jazz, hardcore,metal Depending on your taste of music, you can choose the best curriculum that meets your objectives as a guitarist.</p>
+            </div>
+            <div class="col-md-4 genre-img">
+                <%= image_tag 'guitar.jpg',class:"guitar-img" %>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <div class="video container">
+        <div class="row video-text">
+            <h1 class="col-md-8 col-md-offset-2">Video Tutorial</h1>
+            <p class ="col-md-8 col-md-offset-2">Video tutorial can show you how to play visionally</p>    
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <iframe  class="col-md-10 col-md-offset-1" height="400px" src="https://www.youtube.com/embed/cUxRhesT8gY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <p class="col-md-10 col-md-offset-1 video-text">You will leartn free video lessons from Youtube. Video lessons will show you how to turn up the guitar, how to make an original songs. Video lessons defenitelt facilitate your learning in depth.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sign-up-form container">
+        <div class="row　sign-header">
+            <h1 class="col-md-8 col-md-offset-2">Want to play whatever songs you like?</h1>
+        </div>
+        <div class="row">
+            <div class="sign-up" class="col-md-6 col-md-offset-3">Sign Up!</div>
+        </div>
+        <div class="row footer">
+            <ul>
+                <li class="col-md-3"><%= link_to 'About Us', root_path,class:'footer-list' %></li>
+                <li class="col-md-3"><%= link_to 'About Curriculum',root_path,class:'footer-list' %></li>
+                <li class="col-md-3"><%= link_to 'Get in Touch',root_path,class:'footer-list' %></li>
+                <li class="col-md-3"><%= link_to 'Contact us',root_path,class:'footer-list' %></li>
+            </ul>
+        </div>
+        <div id ="copy-right" class="col-md-12">Guitaracademy all rights reserved.</div>
+    </div>
+</div>
